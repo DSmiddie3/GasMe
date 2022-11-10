@@ -4,7 +4,11 @@ import LandingPage from './assets/components/LandingPage';
 
 function App() {
   return(
-    <LandingPage />
+    <main>
+      <div className='mainPageContent'>
+      <LandingPage></LandingPage>
+      </div>
+    </main>
   )
  
 }
